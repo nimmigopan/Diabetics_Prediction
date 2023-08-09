@@ -1,4 +1,7 @@
 import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn import svm
+from sklearn.metrics import accuracy_score
 import pickle
 import streamlit as st
 
